@@ -5,7 +5,7 @@
 ---
 
 ## **Project Overview**
-![alt text](../jpg/data-steps-all.png)
+![alt text](jpg/data-steps-all.png)
 
 
 ## 1. Data Source (Python Script)
@@ -154,7 +154,7 @@ Rather than allowing schema drift or empty structural keys to break processing r
 
 ### Automated Data Pipepline by Databrick Jobs
 
-![alt text](../jpg/Databricks-jobs.JPG)
+![alt text](jpg/Databricks-jobs.JPG)
 
 ---
 
@@ -171,16 +171,16 @@ Refined Silver layer tables are transformed into Gold tables using a multi-dimen
 * **Visual Dashboards:** The data model populates four key operational reporting views:
 
 ###  1. **Hub Operations Performance** – Macro load rates, package dimensions, and hourly warehouse bottlenecks.
-![alt text](../jpg/Hub-operations-performance-dashboard.JPG)
+![alt text](jpg/Hub-operations-performance-dashboard.JPG)
 
 ###  2. **Parcel Journey & SLA Monitoring** – Real-time validation tracking for express targets and intra-terminal transfer lags.
-![alt text](../jpg/Parcel-journey&SLA-monitoring-dashboard.JPG)
+![alt text](jpg/Parcel-journey&SLA-monitoring-dashboard.JPG)
 
 ###  3. **Scan Quality Monitoring** – Failure profiling across optical sorting equipment and manual warehouse zones.
-![alt text](../jpg/Scan-quality-monitoring-dashboard.JPG)
+![alt text](jpg/Scan-quality-monitoring-dashboard.JPG)
 
 ###  4. **Exceptions Monitoring** – Resolution tracking for misrouted, scuffed, or damaged freight.
-![alt text](../jpg/Exceptions-monitoring-dashboard.JPG)
+![alt text](jpg/Exceptions-monitoring-dashboard.JPG)
 
 
 ---
