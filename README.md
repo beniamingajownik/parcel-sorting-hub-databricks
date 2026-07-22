@@ -144,7 +144,7 @@ Rather than allowing schema drift or empty structural keys to break processing r
               row_dup = 1
 
       ) AS source
-      ON target.device_id = source.device_id
+      ON target. ..._id = source. ..._id
       WHEN MATCHED THEN
           UPDATE SET *
 
@@ -174,7 +174,7 @@ Refined Silver layer tables are transformed into Gold tables using a multi-dimen
 ![alt text](jpg/Hub-operations-performance-dashboard.JPG)
 
 ###  2. **Parcel Journey & SLA Monitoring** – Real-time validation tracking for express targets and intra-terminal transfer lags.
-![alt text](jpg/Parcel-journey&SLA-monitoring-dashboard.JPG)
+![alt text](jpg/Parcel-journey-and-SLA-monitoring-dashboard.JPG)
 
 ###  3. **Scan Quality Monitoring** – Failure profiling across optical sorting equipment and manual warehouse zones.
 ![alt text](jpg/Scan-quality-monitoring-dashboard.JPG)
@@ -187,7 +187,7 @@ Refined Silver layer tables are transformed into Gold tables using a multi-dimen
 
 ## 6. Data Analysis
 
-*(Coming Soon)*
+For a full indepth Data Analysis navigate to [`/analysis`](https://github.com/beniamingajownik/parcel-sorting-hub-databricks/blob/main/analysis/analysis.md)
 
 ---
 
